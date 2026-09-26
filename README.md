@@ -30,3 +30,5 @@ The client requirements are mapped into nine modules with some key properties id
  5.payment
  6.barrier opening
  7.audit and reporting
+ 8. Rate change and update
+ 9.Exception handling
