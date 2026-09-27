@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Rongai Parking Bay - Slot Availability</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 { color: #222; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  .slot {
+    padding: 20px 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+  }
+  .free { background-color: #2ecc71; }
+  .occupied { background-color: #e74c3c; }
+  p { color: #555; }
+</style>
+</head>
+<body>
+
+<h1>Parking Slot Availability</h1>
+<p>Live demo view — in the full system, this would update from the running program.</p>
+
+<div class="grid">
+  <div class="slot free">1</div>
+  <div class="slot free">2</div>
+  <div class="slot occupied">3</div>
+  <div class="slot free">4</div>
+  <div class="slot free">5</div>
+  <div class="slot occupied">6</div>
+  <div class="slot free">7</div>
+  <div class="slot free">8</div>
+  <div class="slot free">9</div>
+  <div class="slot occupied">10</div>
+  <div class="slot free">11</div>
+  <div class="slot free">12</div>
+  <div class="slot free">13</div>
+  <div class="slot free">14</div>
+  <div class="slot free">15</div>
+  <div class="slot free">16</div>
+  <div class="slot free">17</div>
+  <div class="slot occupied">18</div>
+  <div class="slot free">19</div>
+  <div class="slot free">20</div>
+</div>
+
+<p>Green = Available &nbsp;&nbsp; Red = Occupied</p>
+
+</body>
+</html>
