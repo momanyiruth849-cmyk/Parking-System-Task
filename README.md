@@ -1,12 +1,12 @@
 # Parking-System-Task
 
 ##Overview
-This rpository contains the design of a modrn automated parking system for a client
+This repository contains the design of a modern automated parking system for a client
 The system provides live slot availability, rcords vehicles on arrival, calculates the fee owed by the car owner.
 
 ##Critical Analysis Summary
 The client requirements are mapped into nine modules with some key properties identified which are:
- -real time visisbility of free slots
+ -real time visibility of free slots
  -check in time recorded with slot allocation.
  -duration and fee calculation.
  -secure method of payment with confirmation before the opening of the barrier.
@@ -33,5 +33,4 @@ The client requirements are mapped into nine modules with some key properties id
  8. Rate change and update
  9.Exception handling
 
-
-  langauge used in the code is python with the web display of the live slot display attached.
+ The langauge used in the code is python with the web display of the live slot display attached.
