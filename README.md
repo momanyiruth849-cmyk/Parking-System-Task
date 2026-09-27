@@ -32,3 +32,6 @@ The client requirements are mapped into nine modules with some key properties id
  7.audit and reporting
  8. Rate change and update
  9.Exception handling
+
+
+  langauge used in the code is python with the web display of the live slot display attached.
