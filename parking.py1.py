@@ -59,7 +59,6 @@ def main():
             if found_slot == False:
                 print("Sorry, no parking slots available.")
 
-        # Stage 5: Check Out
         elif choice == 2:
             plate = input("Enter vehicle number to check out: ")
             found_slot = False
@@ -105,7 +104,6 @@ def main():
             if found_slot == False:
                 print("Vehicle not found. Please check your plate number.")
 
-        # Stage 3: View Available Slots
         elif choice == 3:
             available_count = 0
             for slot in slots:
